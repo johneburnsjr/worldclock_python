@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--		World Clock Configuration File
+
+-Program uses PYTZ library, based on TZ database to
+	automatically adjust for daylight savings and time zones.
+-Use correct TZ labels found at:
+	 https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+-If using "clock.sh" at startup, program will display yellow star
+	and run default setup for improper configuration.
+-6 Character MAXIMUM for label.
+	
+****MUST REBOOT PI FOR CHANGES TO TAKE EFFECT****		-->
+	
+<clock>
+	<zone1>		<!--Time Zone 1 -->
+		<tz_name>America/New_York</tz_name>
+		<tz_label>C-Ville</tz_label>
+	</zone1>
+	<zone2>		<!--Time Zone 2 -->
+		<tz_name>Europe/London</tz_name>
+		<tz_label>London</tz_label>
+	</zone2>
+	<zone3>		<!--Time Zone 3 -->
+		<tz_name>America/Chicago</tz_name>
+		<tz_label>Chicago</tz_label>
+	</zone3>
+	<zone4>		<!--Time Zone 4 -->
+		<tz_name>Europe/Paris</tz_name>
+		<tz_label>Paris</tz_label>
+	</zone4>
+	<zone5>		<!--Time Zone 5 -->
+		<tz_name>America/Los_Angeles</tz_name>
+		<tz_label>Los Angeles</tz_label>
+	</zone5>
+	<zone6>		<!--Time Zone 6 -->
+		<tz_name>Asia/Hong_Kong</tz_name>
+		<tz_label>Hong Kong</tz_label>
+	</zone6>
+</clock>
